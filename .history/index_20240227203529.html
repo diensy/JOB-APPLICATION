@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="Job_Application.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="apply">
+        <h1>Job Application <span class="web">(Web)</span></h1>
+      </div>
+    </div>
+    <form action="">
+      <div class="form_container">
+        <div class="form_control">
+      <label for="first">First Name</label>
+
+      <input type="text" id="first" placeholder="Enter First Name...." />
+
+      <label for="last">Last Name</label>
+
+      <input type="text" id="last" placeholder="Enter Last Name...." />
+
+      <label for="Email">Email</label>
+
+      <input type="email" id="Email" placeholder="Enter Email..." />
+
+      <label for="Job">Job Role</label>
+    </div>
+      <select name="JobRole" id="Job">
+        <option value="Select Job">Select Job</option>
+        <option value="JAVA">JAVA DEVELOPER</option>
+        <option value="WEB">WEB DEVELOPER</option>
+        <option value="BACKEND">BACKEND DEVELOPER</option>
+        <option value="MERN DEVELOPER">MERN DEVELOPER</option>
+      </select>
+
+      <label for="address">Address</label>
+
+      <textarea
+        name="Address"
+        id="address"
+        cols="40"
+        rows="4"
+        placeholder="Enter Address..."
+      ></textarea>
+
+      <label for="city">City</label>
+
+      <input type="text" id="city" />
+
+      <label for="pin">Pincode</label>
+
+      <input type="text" id="pin" />
+
+      <label for="date">Start Date</label>
+
+      <input value="2024-02-27" type="date" name="date" id="date" />
+
+      <label for="file">Upload your CV</label>
+
+      <input type="file" id="file" />
+    </form>
+    <button class="applybutton" type="submit">Apply Now</button>
+  </body>
+</html>

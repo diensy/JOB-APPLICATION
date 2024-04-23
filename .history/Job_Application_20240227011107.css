@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+}
+
+.head {
+  margin-left: 500px;
+  margin-top: 20px;
+}
+
+.SmallWeb {
+  font-size: 20px;
+}

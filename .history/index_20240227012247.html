@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="Job_Application.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="apply">
+        <h1>Job Application <span class="web">(Web)</span></h1>
+      </div>
+    </div>
+    <form action="">
+      <table>
+        <tr>
+          <td>
+            <label for="first">First Name</label>
+            <br />
+            <input type="text" id="first" placeholder="Enter First Name" />
+          </td>
+          <td>
+            <label for="last">Last Name</label>
+            <br />
+            <input type="text" id="last" placeholder="Enter Last Name" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Email" id="Email">Email</label>
+            <br />
+            <input type="text" id="Email" />
+          </td>
+          <td>
+            <label for="JobRole" id="Job">Job Role</label>
+            <br />
+            <select name="JobRole" id="Job">
+              <option value="Select Job">Select Job</option>
+              <option value="JAVA">JAVA DEVELOPER</option>
+              <option value="WEB">WEB DEVELOPER</option>
+              <option value="BACKEND">BACKEND DEVELOPER</option>
+              <option value="MERN DEVELOPER">MERN DEVELOPER</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td>
+            <label for="Address" id="address">Address</label>
+            <br />
+            <textarea name="Address" id="address" cols="80" rows="5"></textarea>
+          </td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td>
+            <label for="city" id="city">City</label>
+            <br />
+            <input type="text" />
+          </td>
+          <td>
+            <label for="pin" id="pin">Pincode</label>
+            <br />
+            <input type="text" id="pin" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="date" id="date">Start Date</label>
+            <br />
+            <input type="date" id="date" />
+          </td>
+          <td>
+            <label for="file" id="file">Upload your CV</label>
+            <br />
+            <input type="file" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
